@@ -1,3 +1,3 @@
 # ToDos
 
-A to-do list app.
+A to-do list app based on vue.js

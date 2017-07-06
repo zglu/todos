@@ -1,0 +1,98 @@
+body {
+	font: 14px 'Alegreya Sans SC', Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+	color: #4d4d4d;
+	min-width: 20%;
+	max-width: 80%;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-weight: 300;
+}
+
+.new-todo {
+	position: relative;
+	margin: 0;
+	width: 80%;
+	font-size: 24px;
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: 1.4em;
+	border: 0;
+	outline: none;
+	color: inherit;
+	padding: 6px;
+	border: 1px solid #999;
+	box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.new-todo {
+	padding: 16px 16px 16px 60px;
+	border: none;
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+
+.item {
+	max-width: 80%;
+	min-width: 60%;
+	font-family: inherit;
+	font-size: 1.2em;
+	border: 0;
+	line-height: 1.5em;
+}
+
+.item hover {
+	border-color: #000;
+}
+.main {
+	position: relative;
+	z-index: 2;
+	border-top: 1px solid #e6e6e6;
+}
+
+.todo-list li {
+	font-size: 1.5em;
+	line-height: 1.1em;
+	broder: none;
+	outline: none;
+}
+
+
+.filters li {
+	display: inline;
+}
+.filters li a {
+	color: inherit;
+	margin: 3px;
+	padding: 3px 7px;
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+.filters li a.selected,
+.filters li a:hover {
+	border-color: #cc99cc;
+}
+
+.filters li a.selected {
+	background-color: #ffcccc;
+}
+.clear-completed,
+html .clear-completed:active {
+	float: right;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	background-color: #ccffff;
+}
+
+.clear-completed:hover {
+	text-decoration: underline;
+}
+
